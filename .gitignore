@@ -10,11 +10,11 @@
 /multi_ringbuf_reserve/case[1-99]
 
 # source: single_ringbuf
-/single_ringbuf_output/.output
-/single_ringbuf_output/case[1-99]
+/single_ringbuf_reserve/.output
+/single_ringbuf_reserve/case[1-99]
 
 # test
 /test/stress_test
 /test/multi_ringbuf_output/case*.txt
 /test/multi_ringbuf_reserve/case*.txt
-/test/single_ringbuf/case*.txt
+/test/single_ringbuf_reserve/case*.txt
